@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+var j2m = require("jira2md");
+var md = j2m.to_markdown;
+var transformer = require("../transformer");
+transformer(md, function (err, output) {
+	if (err) {
+		console.error(err);
+	}
+	else {
+		console.log(output);
+	}
+});

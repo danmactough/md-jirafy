@@ -1,0 +1,15 @@
+{
+  "name": "md-jirafy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/jirafy",
+  "bin": "bin/jirafy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jira2md": "^1.5.1"
+  }
+}
